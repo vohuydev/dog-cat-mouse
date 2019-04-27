@@ -1,0 +1,32 @@
+[33mcommit 7cb5af9e0bbd5c74c484e955e5882276be00f86b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: VoHuy <huyvothongtin2@gmail.com>
+Date:   Sat Apr 27 10:24:05 2019 +0700
+
+    add module cat and mouse
+
+[1mdiff --git a/cat.js b/cat.js[m
+[1mindex 39db0b0..bad364f 100644[m
+[1m--- a/cat.js[m
+[1m+++ b/cat.js[m
+[36m@@ -1,3 +1,4 @@[m
+ function Cat() {[m
+[31m-    [m
+[31m-}[m
+\ No newline at end of file[m
+[32m+[m[32m    console.log('ahihi');[m
+[32m+[m[32m}[m
+[32m+[m[32mmodule.exports = cat;[m
+\ No newline at end of file[m
+[1mdiff --git a/mouse.js b/mouse.js[m
+[1mindex bd27e04..2f3cb92 100644[m
+[1m--- a/mouse.js[m
+[1m+++ b/mouse.js[m
+[36m@@ -3,4 +3,5 @@[m [mfunction Mouse() {[m
+     var b = 2;[m
+     var c = a + b ;[m
+     console.log(c);[m
+[31m-}[m
+\ No newline at end of file[m
+[32m+[m[32m}[m
+[32m+[m[32mmodule.exports = mouse;[m
+\ No newline at end of file[m
