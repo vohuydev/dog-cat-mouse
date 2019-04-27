@@ -5,4 +5,7 @@ function Mouse() {
     console.log(c);
     this.stomach = [];
 }
+mouse.prototype.add = function() {
+    this.mouse.push(mouse);
+}
 module.exports = mouse;
