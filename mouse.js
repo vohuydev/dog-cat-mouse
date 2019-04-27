@@ -4,3 +4,4 @@ function Mouse() {
     var c = a + b ;
     console.log(c);
 }
+module.exports = mouse;
