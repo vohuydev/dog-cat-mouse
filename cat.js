@@ -7,4 +7,4 @@ function Cat() {
 cat.prototype.die = function() {
     this. dead = true;
 }
-module.exports = cat;
+module.exports = Cat;
