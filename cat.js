@@ -1,5 +1,4 @@
 function Cat() {
-    console.log('ahihi');
     this.name = name;
     this.dead = false;
 
